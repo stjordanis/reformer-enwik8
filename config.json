@@ -53,5 +53,11 @@
   "num_hashes": 4,
   "output_past": true,
   "pad_token_id": 0,
+  "task_specific_params": {
+    "text-generation": {
+      "do_sample": true,
+      "max_length": 100
+    }
+  },
   "vocab_size": 258
 }
